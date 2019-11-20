@@ -1,0 +1,20 @@
+name: geopose 
+channels:
+  - pytorch 
+  - defaults
+  - conda-forge
+  - bioconda
+  - auto
+dependencies:
+  - python=3.7  
+  - openblas
+  - numpy
+  - google-sparsehash
+  - pytorch=1.2
+  - torchvision
+  - pyyaml
+  - matplotlib
+  - scipy
+  - scikit-image 
+  - tqdm
+  - tensorboardX
